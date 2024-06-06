@@ -1,0 +1,397 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "e1280829-0e60-4290-a388-e76a5cbd2f97",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "3f5b555d-1660-42e3-ae3a-94762d4a9937",
+					"type": "trait",
+					"name": "Kel's Spirit Walk",
+					"reference": "B42,P44,PSI13",
+					"notes": "Acts as: Clairsentience",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "43727ba6-a2a4-429f-908d-edb044ef5af0",
+							"type": "modifier",
+							"name": "Clairaudience",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "1d1fc2e5-b83e-46f3-b2d0-deda7433ef33",
+							"type": "modifier",
+							"name": "Clairosmia",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "a942711b-a8cf-4380-a5ed-d7bb8a2e279c",
+							"type": "modifier",
+							"name": "Clairvoyance",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "eb3c4d95-ac7f-4680-9403-a0ddd8e4990a",
+							"type": "modifier",
+							"name": "Visible",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "7aa0567f-a8b7-44ea-9ba4-d06bc752b3b8",
+							"type": "modifier",
+							"name": "Aware",
+							"reference": "P44",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "d936d074-3572-42dc-ad31-3b6b553befde",
+							"type": "modifier",
+							"name": "Projection",
+							"reference": "P43",
+							"notes": "Only affects insubstantial world",
+							"disabled": true
+						},
+						{
+							"id": "accd74a9-e86f-49e1-91f6-775f0890f5b2",
+							"type": "modifier",
+							"name": "Projection",
+							"reference": "P44",
+							"notes": "Can use abilities on material world",
+							"cost": 140,
+							"disabled": true
+						},
+						{
+							"id": "b588f9c9-f12b-48cc-974f-10e98cafeabe",
+							"type": "modifier",
+							"name": "Second Nature",
+							"reference": "P44",
+							"cost": 70,
+							"disabled": true
+						},
+						{
+							"id": "e32a20e3-5980-4e9d-a44b-55f79994f7a6",
+							"type": "modifier",
+							"name": "Fixed Range",
+							"reference": "PSI13",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "da6f785c-5d1a-48a5-b83f-2129364bde09",
+							"type": "modifier",
+							"name": "Normal Sight",
+							"reference": "PSI13",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "d790cd61-c49a-40b0-9379-fcfdfd0353e9",
+							"type": "modifier",
+							"name": "100x Increased Range",
+							"reference": "B106",
+							"cost": 60
+						},
+						{
+							"id": "291b4b92-e7f5-42b0-a042-355323763c97",
+							"type": "modifier",
+							"name": "Costs Fatigue",
+							"reference": "B111,P101",
+							"cost": -5,
+							"levels": 3
+						}
+					],
+					"base_points": 50,
+					"calc": {
+						"points": 60
+					}
+				},
+				{
+					"id": "2e2a4337-ca04-439c-9417-0eac03b860e4",
+					"type": "trait",
+					"name": "Kel's Sparks",
+					"reference": "P92",
+					"notes": "Acts as: Create (Sparks)",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "b672b689-319e-49bf-a0c4-1f1b1a22a6f8",
+							"type": "modifier",
+							"name": "Destruction",
+							"reference": "P94",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "21261817-b058-47c3-b57a-538c51cea1c2",
+							"type": "modifier",
+							"name": "Destruction Only",
+							"reference": "P94",
+							"disabled": true
+						},
+						{
+							"id": "7cb2ed09-c77a-46fa-8e50-75610155b946",
+							"type": "modifier",
+							"name": "Transmutation",
+							"reference": "P94",
+							"notes": "@Category@ to @Category@",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "263cbf96-fa69-4fa5-be4b-cfb2ba42c87c",
+							"type": "modifier",
+							"name": "Transmutation only",
+							"reference": "P94",
+							"cost": -100,
+							"disabled": true
+						},
+						{
+							"id": "27deb135-4594-4f39-83ee-a8a67a08684a",
+							"type": "modifier",
+							"name": "Specific item",
+							"reference": "P92",
+							"cost": 1,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "6ee13b6c-ba71-4d74-a6ab-8ae35a847cc8",
+							"type": "modifier",
+							"name": "Small category",
+							"reference": "P92",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "6da3da7f-7476-4167-a7df-bb8e1e73d4d7",
+							"type": "modifier",
+							"name": "Medium category",
+							"reference": "P92",
+							"cost": 4,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "7ed13f30-5c2b-4681-be4a-63b9376c5b81",
+							"type": "modifier",
+							"name": "Large category",
+							"reference": "P92",
+							"cost": 8,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "5f556621-7da2-4901-8d73-4e2a0e93e1c6",
+							"type": "modifier",
+							"name": "5x Increased Range",
+							"reference": "B106",
+							"cost": 20
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "f48a32bb-a86a-4c6b-87df-f07ee3e67a3c",
+					"type": "trait",
+					"name": "Kel's Spirit Memory",
+					"reference": "B78,P70",
+					"notes": "Acts as: Racial Memory",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "64a9b0df-882e-46f7-84c9-cc0816f9deb7",
+							"type": "modifier",
+							"name": "Passive",
+							"reference": "B78",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "bf910aea-fc7e-4f49-a6ca-dd62db6e946b",
+							"type": "modifier",
+							"name": "Active",
+							"reference": "B78",
+							"cost": 40,
+							"cost_type": "points"
+						},
+						{
+							"id": "6f8c98b9-041c-435f-a29f-dc59d88fdd8d",
+							"type": "modifier",
+							"name": "Immersive",
+							"reference": "P70",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "a1daefe5-ea54-42b4-9acf-f5e8bcebeb0e",
+							"type": "modifier",
+							"name": "Costs Fatigue",
+							"reference": "B111,P101",
+							"cost": -5,
+							"levels": 4
+						}
+					],
+					"calc": {
+						"points": 22
+					}
+				}
+			],
+			"open": true,
+			"name": "Kel's Spirit Control",
+			"reference": "P134",
+			"tags": [
+				"Advantage",
+				"Power"
+			],
+			"modifiers": [
+				{
+					"id": "93c17b67-0b59-48ce-a7fb-9daff0cb9a87",
+					"type": "modifier",
+					"name": "Power Modifier",
+					"reference": "P26",
+					"notes": "Divine",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "74d95988-264a-42ce-bcac-e32ce7f30e53",
+					"type": "modifier",
+					"name": "Power Modifier",
+					"reference": "P27",
+					"notes": "Magical",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "d054f0fb-9250-4cf0-9805-fe09dcd84095",
+					"type": "modifier",
+					"name": "Power Modifier",
+					"reference": "P28",
+					"notes": "Spirit",
+					"cost": -25
+				}
+			],
+			"calc": {
+				"points": 87
+			}
+		},
+		{
+			"id": "6eabce51-c158-4165-a0dc-8762e71f1725",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "4218d194-4046-4d81-a984-d73f79ead936",
+					"type": "trait",
+					"name": "Spirit Memory",
+					"reference": "B78,P70",
+					"notes": "Acts as: Racial Memory",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "64a9b0df-882e-46f7-84c9-cc0816f9deb7",
+							"type": "modifier",
+							"name": "Passive",
+							"reference": "B78",
+							"cost": 15,
+							"cost_type": "points"
+						},
+						{
+							"id": "bf910aea-fc7e-4f49-a6ca-dd62db6e946b",
+							"type": "modifier",
+							"name": "Active",
+							"reference": "B78",
+							"cost": 40,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "6f8c98b9-041c-435f-a29f-dc59d88fdd8d",
+							"type": "modifier",
+							"name": "Immersive",
+							"reference": "P70",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "a1daefe5-ea54-42b4-9acf-f5e8bcebeb0e",
+							"type": "modifier",
+							"name": "Costs Fatigue",
+							"reference": "B111,P101",
+							"cost": -5,
+							"levels": 4
+						}
+					],
+					"calc": {
+						"points": 9
+					}
+				}
+			],
+			"open": true,
+			"name": "Spirit Listener",
+			"reference": "P134",
+			"tags": [
+				"Advantage",
+				"Power"
+			],
+			"modifiers": [
+				{
+					"id": "93c17b67-0b59-48ce-a7fb-9daff0cb9a87",
+					"type": "modifier",
+					"name": "Power Modifier",
+					"reference": "P26",
+					"notes": "Divine",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "74d95988-264a-42ce-bcac-e32ce7f30e53",
+					"type": "modifier",
+					"name": "Power Modifier",
+					"reference": "P27",
+					"notes": "Magical",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "d054f0fb-9250-4cf0-9805-fe09dcd84095",
+					"type": "modifier",
+					"name": "Power Modifier",
+					"reference": "P28",
+					"notes": "Spirit",
+					"cost": -25
+				}
+			],
+			"calc": {
+				"points": 9
+			}
+		}
+	]
+}
